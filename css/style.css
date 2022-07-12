@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(172, 152, 152);
+
+}
+.d1{margin: 12px;
+    padding: 10px;
+    background-color: rgb(196, 167, 167);
+    border-radius: 20px;
+    
+}
+.bu1{
+    width: 93px;
+    height: 45px;
+    padding:7px;
+   background:floralwhite;
+   border-radius: 12px;
+   text-align:center;
+   font-size:18px;
+   line-height:20px;
+   border: 2px solid rgba(97, 12, 12, 0.911);
+   margin: 2px;
+   position: relative;
+}
+.bu1:hover{
+    background: rgba(46, 39, 39, 0.473);
+    color:#ffff;
+}
+.fiel{
+    margin: 9px;
+    width: 100px;
+    height:900px;
+    border: 2px solid rgba(97, 12, 12, 0.397);
+    color: #000;
+    text-align:center;
+    background-color: rgb(196, 167, 167);
+    border-radius: 12px;
+}
+.h3:hover{
+
+    background: rgba(46, 39, 39, 0.473);
+    color:#ffff;
+    border-radius: 12px;
+}
