@@ -1,43 +1,61 @@
-body{
-    background-color: rgb(172, 152, 152);
-
+.body{
+     background-color: rgba(172, 152, 152, 0.315); 
+   /* background-image: url(imgs/p.jpg); */
 }
 .d1{margin: 12px;
-    padding: 10px;
-    background-color: rgb(196, 167, 167);
+    padding: 11px;
+    background-color: rgba(196, 167, 167, 0.486);
     border-radius: 20px;
-    
+    height: 30px;
+    text-align: center;
 }
 .bu1{
-    width: 93px;
-    height: 45px;
-    padding:7px;
+    width: 90px;
+    height: 30px;
+    padding:5px;
    background:floralwhite;
    border-radius: 12px;
    text-align:center;
-   font-size:18px;
+   font-size:17px;
    line-height:20px;
    border: 2px solid rgba(97, 12, 12, 0.911);
    margin: 2px;
    position: relative;
 }
-.bu1:hover{
-    background: rgba(46, 39, 39, 0.473);
-    color:#ffff;
-}
-.fiel{
-    margin: 9px;
-    width: 100px;
-    height:900px;
-    border: 2px solid rgba(97, 12, 12, 0.397);
-    color: #000;
-    text-align:center;
-    background-color: rgb(196, 167, 167);
-    border-radius: 12px;
-}
-.h3:hover{
 
+.bu1:hover{
+ 
     background: rgba(46, 39, 39, 0.473);
     color:#ffff;
-    border-radius: 12px;
+}
+.contact{
+ 
+  width:20px;
+  height: 20px;
+  margin-right: 2px;
+  margin-left: 2px;
+
+
+}
+.contact:hover{
+width: 25px;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+   
+}
+.pic{
+   
+   width: 22%;
+   float: left;
+   display:block;
+   overflow: hidden;
+   padding: 12px;
+}
+img{
+    width: 100%;
+    border-radius: 3px;
+
+}
+img:hover{
+    transform: scale(1.5);
+  transition: 2s transform;
 }
